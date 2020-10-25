@@ -34,7 +34,7 @@ try:
 except FileExistsError:
   pass
 output_file = os.path.join(download_path, 'database.sqlite')
-temp_file = drive.CreateFile({'id': '1YaTrGzVdNwMavTL36oTYN2hbnMkRyx-9'})
+temp_file = drive.CreateFile({'id': 'XXXXXXXXXXXX'})
 temp_file.GetContentFile(output_file)
 
 
